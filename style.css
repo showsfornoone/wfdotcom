@@ -1,0 +1,96 @@
+@charset "UTF-8";
+/* CSS Document */
+
+html, body{
+	font-family: 'Lato', sans-serif;
+	cursor:default;
+}
+
+a {
+	text-decoration: none;
+	color: black;
+}
+
+
+#container{
+	width: 175px;
+	height: 200px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 200px;
+	text-align: left;
+}
+
+#title{
+	padding-top: 10px;
+	padding-left: 15px;
+	padding-right: 15px;
+	padding-bottom: 10px;
+	width: auto;
+	height: auto;
+	font-weight: 700;
+	border-style: solid;
+	border-width: 2px;
+}
+
+#subtitle {
+	margin-top: 5px;
+	font-weight: 400;
+	font-size: 10px;
+	text-align: left;
+}
+
+#nav{
+	margin-top: 7px;
+	display: none;
+	font-weight: 400;
+}
+
+#cv{
+	margin-bottom: 5px;
+}
+
+.showHide{
+	display:none;
+}
+
+#projectsTitle{
+	width: auto;
+	height: auto;
+	margin-bottom: 5px;
+}
+
+
+#lineOne{
+	margin-right: 5px;
+	float: left;
+	background-color: black;
+	width: 2px;
+	height: 24px;
+}
+
+
+#lineTwo{
+	margin-right: 5px;
+	float: left;
+	background-color: black;
+	width: 2px;
+	height: 100px;
+}
+
+#lineThree{
+	margin-right: 5px;
+	float: left;
+	background-color: black;
+	width: 2px;
+	height: 20px;
+}
+
+#projects{
+	display:none;
+	margin-left: 8px;
+	margin-bottom:5px;
+	text-align: left;
+	line-height: 20px;
+	font-size: 10px;
+}
