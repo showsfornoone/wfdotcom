@@ -4,15 +4,17 @@ $(document).ready(function(){
 	"use strict";
 	
 
-	$("#title").click(function(){
-		$("#nav").slideDown();
+	$("#title, #subtitle").click(function(){
+		$("#nav").slideToggle();
 		});
 		
-	
-	
-	
+
 	$("#projectsTitle").click(function(){
 		$("#projects").slideToggle();
+		});
+	
+	$("#resumeTitle").click(function(){
+		$("#resume").slideToggle();
 		});
   
 	

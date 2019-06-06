@@ -17,20 +17,27 @@ a {
 	height: 200px;
 	margin-left: auto;
 	margin-right: auto;
-	margin-top: 200px;
+	margin-top: 33vh;
 	text-align: left;
 }
 
-#title{
-	padding-top: 10px;
+#containerInner{
+	cursor: pointer;
+	width: auto;
+	height: auto;
+	border-style: solid;
+	border-width: 2px;
+	padding-top: 8px;
 	padding-left: 15px;
 	padding-right: 15px;
 	padding-bottom: 10px;
+	background-color:white;
+}
+
+#title{
+	font-weight: 700;
 	width: auto;
 	height: auto;
-	font-weight: 700;
-	border-style: solid;
-	border-width: 2px;
 }
 
 #subtitle {
@@ -75,7 +82,7 @@ a {
 	float: left;
 	background-color: black;
 	width: 2px;
-	height: 100px;
+	height: 83px;
 }
 
 #lineThree{
@@ -86,10 +93,19 @@ a {
 	height: 20px;
 }
 
-#projects{
+#lineFour{
+	margin-right: 5px;
+	float: left;
+	background-color: black;
+	width: 2px;
+	height: 40px;
+}
+
+#projects, #resume{
 	display:none;
+	margin-top: 10px;
 	margin-left: 8px;
-	margin-bottom:5px;
+	margin-bottom:10px;
 	text-align: left;
 	line-height: 20px;
 	font-size: 10px;
